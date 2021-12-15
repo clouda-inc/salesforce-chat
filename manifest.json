@@ -52,56 +52,6 @@
           }
         }
       },
-      "extraPrechatInfo": {
-        "title": "extraPrechatInfo",
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "entityName": {
-              "type": "string",
-              "title": "entityName"
-            },
-            "showOnCreate": {
-              "type": "boolean",
-              "title": "showOnCreate"
-            },
-            "saveToTranscript": {
-              "type": "string",
-              "title": "saveToTranscript"
-            },
-            "entityFieldMaps": {
-              "type": "array",
-              "title": "entityFieldMaps",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "isExactMatch": {
-                    "type": "boolean",
-                    "title": "isExactMatch"
-                  },
-                  "fieldName": {
-                    "type": "string",
-                    "title": "fieldName"
-                  },
-                  "doCreate": {
-                    "type": "boolean",
-                    "title": "doCreate"
-                  },
-                  "doFind": {
-                    "type": "boolean",
-                    "title": "doFind"
-                  },
-                  "label": {
-                    "type": "string",
-                    "title": "label"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
       "enabledFeatures": {
         "title": "enabledFeatures",
         "type": "array",
@@ -125,9 +75,13 @@
         "type": "string",
         "title": "Organization ID"
       },
-      "accountName": {
+      "loggedAccountName": {
         "type": "string",
-        "title": "Account Name"
+        "title": "Logged Account Name"
+      },
+      "guessedAccountName": {
+        "type": "string",
+        "title": "Guest Account Name"
       },
       "deploymentId": {
         "type": "string",
